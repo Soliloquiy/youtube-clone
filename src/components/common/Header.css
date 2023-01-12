@@ -1,0 +1,146 @@
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+}
+
+.btn {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.left {
+    display: flex;
+    margin-left: 1vw;
+}
+
+.left img {
+    width: 120px;
+    height: 70px;
+}
+
+.left i {
+    font-size: 20px;
+}
+
+.modal-home-btn {
+    margin-top: 16px;
+}
+
+.modal-home-btn:hover {
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.middle {
+    margin-top: 12px;
+    display: flex;
+}
+
+.searchbox {
+    display: flex;
+    margin-right: 25px;
+    width: 560px;
+    height: 42px;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+
+.searchbox input {
+    height: 40px;
+    width: 90%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    margin-left: 22px;
+}
+
+.searchbox input:focus {
+    outline: none;
+}
+
+.search-btn {
+    width: 69px;
+    height: 43px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-color: rgba(128, 128, 128, 0.1);
+    border-bottom-style: hidden;
+    background-color: #f8f8f8;
+}
+
+.search-btn:hover {
+    cursor: pointer;
+
+}
+
+.search-btn i {
+    font-size: 19px;
+}
+
+.middle .fa-microphone {
+    font-size: 19px;
+}
+
+.microphone-btn {
+    margin-top: 4px;
+}
+
+.microphone-btn:hover {
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.right {
+    margin-right: 20px;
+    width: 136px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right .fa-video {
+    font-size: 19px;
+}
+
+.video-btn {
+    margin-top: 13px;
+}
+
+.video-btn:hover {
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.right .fa-bell {
+    font-size: 19px;
+}
+
+.bell-btn {
+    margin-top: 13px;
+}
+
+.bell-btn:hover {
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.right img {
+    margin-top: 13px;
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+}
+
+.right img:hover {
+    cursor: pointer;
+}

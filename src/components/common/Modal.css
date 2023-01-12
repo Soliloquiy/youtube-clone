@@ -1,0 +1,92 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+    visibility: hidden;
+}
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 247px;
+    height: 100%;
+    background: white;
+    overflow-y: auto;
+    height: 100vh;
+    transition: all 0.3s linear;
+    transform: translate(-100%);
+}
+
+.modal-header {
+    display: flex;
+    margin-left: 1vw;
+}
+
+.modal-close-btn {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid transparent;
+    margin-top: 16px;
+}
+
+.modal-close-btn:hover {
+    cursor: pointer;
+}
+
+.modal-header img {
+    width: 120px;
+    height: 70px;
+}
+
+.modal-container .modal-btn {
+    display: flex;
+    margin-left: 9px;
+    background: transparent;
+    border: 1px solid transparent;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 210px;
+}
+
+.modal-container .modal-btn:hover {
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.modal-container .fa-solid {
+    font-size: 18px;
+    padding-top: 9px;
+}
+
+.modal-container .fa-credit-card {
+    font-size: 18px;
+    padding-top: 9px;
+}
+
+.modal-container p {
+    margin-left: 26px;
+}
+
+.modal-top {
+    border-bottom: 2px solid #f0f0f0;
+    width: 220px;
+    margin-left: 7px;
+    padding-bottom: 10px;
+}
+
+.open-modal {
+    visibility: visible;
+    transform: translate(0);
+}
+
+.modal-container .fa-bars {
+    padding-top: 3px;
+}

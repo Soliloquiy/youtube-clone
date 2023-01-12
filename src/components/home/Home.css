@@ -1,0 +1,50 @@
+.home-container {
+    margin-left: 75px;
+    padding-top: 150px;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 0px;
+}
+
+.box {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.box .home-cover {
+    border-radius: 5%;
+    width: 284px;
+    height: 157px;
+}
+
+.box-flex1 {
+    display: flex;
+}
+
+.box .home-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.box p {
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 11px;
+    height: 5px;
+    color: rgb(97, 96, 96);
+    padding-left: 5px;
+}
+
+.box .home-title {
+    font-family: "Roboto","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    width: 197px;
+    line-height: 1.1rem;
+    padding-left: 5px;
+    color: black;
+    height: 24px;
+}
