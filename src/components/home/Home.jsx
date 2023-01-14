@@ -3,6 +3,7 @@ import "./Home.css";
 import millify from "millify";
 import moment from 'moment';
 import Aside from "../common/Aside";
+import { Link } from "react-router-dom";
 
 const Home = () => {
    const text_truncate = function(str, length, ending) {
@@ -27,6 +28,7 @@ const Home = () => {
                     {data.map((item,index) => {
                         return (
                             <div className="box" key={index}>
+                              <Link to={`/detail/${item.id}`}>
                                 <img src={item.image} className="home-cover" alt="" />
                                 <div className="box-flex1">
                                     <img className="home-logo" src={item.logo} alt="" />
@@ -36,6 +38,7 @@ const Home = () => {
                                         <p>{millify(item.views)} views · {moment(item.date, "YYYYMMDD").fromNow()}</p>
                                     </div>
                                 </div>
+                                </Link>
                             </div>
                         )
                     })}

@@ -9,6 +9,10 @@
     grid-gap: 0px;
 }
 
+.box a {
+    text-decoration: none;
+}
+
 .box {
     margin: 0 auto;
     margin-top: 20px;

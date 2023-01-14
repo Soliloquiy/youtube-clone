@@ -1,0 +1,167 @@
+.detail-container {
+    display: flex;
+    padding-top: 86px;
+    width: 100%;
+    height: 100%;
+    padding-left: 58px;
+}
+
+.main-cover {
+    width: 702px;
+    height: 381px;
+}
+
+.main-flex1 {
+    display: flex;
+}
+
+.detail-main .main-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.detail-main h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.detail-main p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    width: 66px;
+    line-height: 0.1rem;
+    padding-left: 0px;
+    color: rgb(43, 42, 42);
+    height: 10px;
+}
+
+.detail-main .main-creator {
+    font-size: 15px;
+    width: 77px;
+}
+
+.detail-main button {
+    background: transparent;
+    border: 1px solid transparent;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 78px;
+    background-color: #f0f0f0;
+    height: 34px;
+    margin-left: 15px;
+}
+
+.detail-main .main-join-btn {
+    margin-left: 35px;
+}
+
+.detail-main button:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.main-likes {
+    display: flex;
+    margin-left: 50px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 170px;
+    background-color: #f0f0f0;
+    height: 34px;
+}
+
+.main-likes button {
+    background: transparent;
+}
+
+.main-likes .likes {
+    display: flex;
+    width: 78px;
+}
+
+.main-likes .likes:hover {
+    background: transparent;
+}
+
+.main-likes .dislikes {
+    border-left: 1px solid #c9c4c4;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.fa-regular {
+    font-size: 19px;
+}
+
+.fa-thumbs-up {
+    padding-top: 5px;
+}
+
+.detail-main .main-subscribe-btn {
+    width: 80px;
+}
+
+.detail-main .main-more-btn {
+    width: 40px;
+}
+
+.detail-main .main-more-btn p {
+    width: 26px;
+}
+
+.detail-main .main-share-btn {
+    display: flex;
+}
+
+.detail-main .fa-solid {
+    font-size: 19px;
+    padding-top: 5px;
+}
+
+.detail-container .detail-featured {
+    margin-left: 30px;
+}
+
+.detail-featured a {
+    display: flex;
+}
+
+.main-flex2 {
+    margin-left: 10px;
+}
+
+.main-flex2 .main-subscribers {
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 11px;
+    height: 5px;
+    color: rgb(97, 96, 96);
+}
+
+.main-description {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: #f0f0f0;
+}
+
+.detail-main .main-description p {
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.detail-main .main-description-p {
+    font-weight: 400;
+    height: 100%;
+    line-height: 100%;
+    padding-top: 0px;
+}

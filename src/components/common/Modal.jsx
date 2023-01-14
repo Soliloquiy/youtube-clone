@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import "./Modal.css";
 
 const Modal = ({ openModal, setModal }) => {
-    console.log(openModal)
     return (
         <>
             <section className={openModal ? "modal-overlay open-modal" : "modal-overlay"}>
